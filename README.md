@@ -1,41 +1,22 @@
 # Hi, I'm Raeseok Lee 👋
 
-Engineering leader building **developer tools, AI infrastructure, and scalable platform systems**.
-
-I’m interested in how modern software platforms evolve with **AI, agents, and developer productivity tooling**, and I enjoy building tools that help developers understand and operate complex systems.
+I build tools for AI systems that make complex workflows **easier to test, validate, and operate**.  
+Currently focused on **MCP developer tooling** and **agent infrastructure**.
 
 ---
 
 ## 🚀 Projects
 
 ### MCP Workbench
-Developer tool for **testing, inspecting, and debugging MCP servers**.
-
-### MCP Workbench VSCode Extension
-VS Code extension for interacting with MCP servers directly from the editor.
+Developer toolkit for testing, inspecting, and debugging MCP servers —  
+including a CLI (inspector & test runner), VS Code extension, and an agent-facing MCP server for automated validation.
 
 ### A2A Sentinel
 Security gateway for **agent-to-agent communication**.
 
 ---
 
-## 🧠 Areas of Interest
-
-- AI developer tooling
-- Agent infrastructure
-- Platform architecture
-- Developer productivity
-- Protocol and system design
-
----
-
-## 🛠 Philosophy
-
-I like building tools that help developers **understand, test, and operate complex systems more easily**.
-
----
-
 ## 🔗 Connect
 
-GitHub: https://github.com/raeseoklee  
-LinkedIn: https://linkedin.com/in/raeseoklee
+LinkedIn: https://linkedin.com/in/raeseoklee  
+GitHub: https://github.com/raeseoklee
