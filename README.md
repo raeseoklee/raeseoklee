@@ -1,22 +1,25 @@
 # Hi, I'm Raeseok Lee 👋
 
-I build tools for AI systems that make complex workflows **easier to test, validate, and operate**.  
-Currently focused on **MCP developer tooling** and **agent infrastructure**.
+I build the unglamorous layer underneath AI agents —  
+the tooling, gateways, and guardrails that keep them running long after the demo ends.
+
+Currently focused on **MCP developer tooling** and **agent-to-agent infrastructure**.
 
 ---
 
 ## 🚀 Projects
 
-### MCP Workbench
-Developer toolkit for testing, inspecting, and debugging MCP servers —  
-including a CLI (inspector & test runner), VS Code extension, and an agent-facing MCP server for automated validation.
+### [MCP Workbench](https://github.com/raeseoklee/mcp-workbench)
+A developer toolkit for MCP servers — inspect, test, and debug them before they break in production.  
+Ships as a CLI (inspector + test runner), a VS Code extension, and an agent-facing MCP server for automated validation.
 
-### A2A Sentinel
-Security gateway for **agent-to-agent communication**.
+### [A2A Sentinel](https://github.com/raeseoklee/a2a-sentinel)
+A security gateway for **agent-to-agent (A2A) communication** —  
+because the moment agents start talking to other agents, you need a layer that doesn't trust either of them.
 
 ---
 
 ## 🔗 Connect
 
-LinkedIn: https://linkedin.com/in/raeseoklee  
-GitHub: https://github.com/raeseoklee
+- LinkedIn: [raeseoklee](https://linkedin.com/in/raeseoklee)
+- GitHub: [raeseoklee](https://github.com/raeseoklee)
