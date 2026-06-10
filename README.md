@@ -1,25 +1,35 @@
-# Hi, I'm Raeseok Lee 👋
+Developer tooling for agent systems — context enforcement, test harnesses,
+protocol gateways, audit trails, and local workflows you can actually inspect.
 
-I build the unglamorous layer underneath AI agents —  
-the tooling, gateways, and guardrails that keep them running long after the demo ends.
+Models are useful; the infrastructure around them is hard to test, constrain,
+and recover. That's the gap I work in.
 
-Currently focused on **MCP developer tooling** and **agent-to-agent infrastructure**.
+## Projects
 
----
+### [Haechi](https://github.com/raeseoklee/haechi)
 
-## 🚀 Projects
-
-### [MCP Workbench](https://github.com/raeseoklee/mcp-workbench)
-A developer toolkit for MCP servers — inspect, test, and debug them before they break in production.  
-Ships as a CLI (inspector + test runner), a VS Code extension, and an agent-facing MCP server for automated validation.
+Self-hosted context enforcement for LLM APIs, MCP, vLLM, Ollama, and agent
+traffic. Local proxy or stdio MCP wrapper; tokenize/redact payloads, audit
+without raw secrets or PII. Developer preview.
 
 ### [A2A Sentinel](https://github.com/raeseoklee/a2a-sentinel)
-A security gateway for **agent-to-agent (A2A) communication** —  
-because the moment agents start talking to other agents, you need a layer that doesn't trust either of them.
 
----
+Lightweight Go gateway for A2A traffic — rate limiting, auth modes, Agent Card
+checks, audit logs, metrics, hot reload. Start here, grow into agentgateway.
 
-## 🔗 Connect
+### [Codexus](https://github.com/raeseoklee/codexus)
 
-- LinkedIn: [raeseoklee](https://linkedin.com/in/raeseoklee)
-- GitHub: [raeseoklee](https://github.com/raeseoklee)
+Local harness around OpenAI Codex CLI. Durable run ledgers, verification-gated
+completion, bounded repair loops. "Done" means the check passed.
+
+### [MCP Workbench](https://github.com/raeseoklee/mcp-workbench)
+
+CLI for MCP server developers: inspect servers, generate YAML test specs, run
+assertions, CI-friendly output.
+
+- [VS Code extension](https://github.com/raeseoklee/mcp-workbench-vscode) — run specs and see failures in the editor
+- [MCP server adapter](https://github.com/raeseoklee/mcp-workbench-mcp-server) — agents inspect, generate, and run tests as tools
+
+## Connect
+
+[GitHub](https://github.com/raeseoklee) · [LinkedIn](https://linkedin.com/in/raeseoklee)
