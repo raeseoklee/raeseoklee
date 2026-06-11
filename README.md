@@ -2,7 +2,7 @@ Developer tooling for agent systems — context enforcement, test harnesses,
 protocol gateways, audit trails, and local workflows you can actually inspect.
 
 Models are useful; the infrastructure around them is hard to test, constrain,
-and recover. That's the gap I work in.
+and recover from when things fail. That's the gap I work in.
 
 ## Projects
 
@@ -10,7 +10,7 @@ and recover. That's the gap I work in.
 
 Self-hosted context enforcement for LLM APIs, MCP, vLLM, Ollama, and agent
 traffic. Local proxy or stdio MCP wrapper; tokenize/redact payloads, audit
-without raw secrets or PII. Developer preview.
+without raw secrets or PII.
 
 ### [A2A Sentinel](https://github.com/raeseoklee/a2a-sentinel)
 
