@@ -17,11 +17,11 @@ without raw secrets or PII.
 Lightweight Go gateway for A2A traffic — rate limiting, auth modes, Agent Card
 checks, audit logs, metrics, hot reload. Start here, grow into agentgateway.
 
-### [Scanrail](https://github.com/raeseoklee/scanrail)
+### [AgentMux](https://github.com/raeseoklee/agentmux)
 
-Developer-first security scan orchestrator. It wraps OSS tools behind one CLI so
-checks can be installed, configured, run, normalized, and reported the same way
-before PRs, releases, or handoffs.
+Windows desktop terminal multiplexer for running AI agent sessions, shells, and
+browser-assisted workflows side by side. Built around workspaces, split panes,
+session recovery, and agent status visibility.
 
 ### [Artifacty](https://github.com/raeseoklee/artifacty)
 
